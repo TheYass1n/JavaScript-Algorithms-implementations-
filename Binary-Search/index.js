@@ -29,13 +29,14 @@ const BinarySearch = (arr, target) => {
     return 'The target doesn’t exist in the array'
 }
 
+// let test it
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let names =["احمد", "بشير", "جميلة", "محمد"];
-
-BinarySearch(names, 'محمد') // 3
-BinarySearch(names, 'بشير') // 2
-BinarySearch(names, 'احمد') // 0
 
 BinarySearch(numbers, 1) // return 0
 BinarySearch(numbers, 6) // return 5
 BinarySearch(numbers, 10) // return 9
+
+BinarySearch(names, 'محمد') // 3
+BinarySearch(names, 'بشير') // 2
+BinarySearch(names, 'احمد') // 0
